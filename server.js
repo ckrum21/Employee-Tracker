@@ -21,6 +21,8 @@ const db = mysql.createConnection(
 
 //add content
 
+
+
 app.use((req, res) =>{
     res.status(404).end();
 });
